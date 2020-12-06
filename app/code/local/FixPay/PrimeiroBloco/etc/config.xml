@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <FixPay_PrimeiroBloco>
+            <version>1.0.0</version>
+        </FixPay_PrimeiroBloco>
+    </modules>
+    <global>
+        <blocks>
+            <fixpay_primeirobloco>
+                <class>FixPay_PrimeiroBloco_Block</class>
+            </fixpay_primeirobloco>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <fixpay_primeirobloco>
+                    <file>fixpay_primeirobloco.xml</file>
+                </fixpay_primeirobloco>
+            </updates>
+        </layout>
+    </frontend>
+</config>
