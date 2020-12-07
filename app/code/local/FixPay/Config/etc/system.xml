@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <fix_pay>
+            <label>Fix Pay</label>
+            <sort_order>10</sort_order>
+        </fix_pay>
+    </tabs>
+    <sections>
+        <fixpay_configs>
+            <label>Configurações</label>
+            <tab>fix_pay</tab>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <fixpay_credenciais>
+                    <label>Credenciais</label>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <expanded>1</expanded>
+                    <fields>
+                        <fixpay_email>
+                            <label>Email</label>
+                            <sort_order>10</sort_order>
+                            <frontend_type>text</frontend_type>
+                            <comment><![CDATA[Email da sua conta Fix Pay]]></comment>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </fixpay_email>
+                        <fixpay_senha>
+                            <label>Senha</label>
+                            <sort_order>20</sort_order>
+                            <frontend_type>password</frontend_type>
+                            <comment><![CDATA[Senha da sua conta Fix Pay]]></comment>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </fixpay_senha>
+                    </fields>
+                </fixpay_credenciais>
+            </groups>
+        </fixpay_configs>
+    </sections>
+</config>
+

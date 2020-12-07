@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1628d91e-a355-4836-9606-d31f281ec1ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/code/local/FixPay/AddToCart/Helper/Data.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/local/FixPay/AddToCart/controllers/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/local/FixPay/AddToCart/etc/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/local/FixPay/PrimeiroBloco/Block/Hello.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/local/FixPay/PrimeiroBloco/etc/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/local/FixPay/PrimeiroModulo/etc/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/base/default/layout/fixpay_primeirobloco.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/meuprimeirobloco/world.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/etc/modules/FixPay_AddToCart.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/etc/modules/FixPay_PrimeiroBloco.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/etc/modules/FixPay_PrimeiroModulo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skin/frontend/base/default/meuprimeirobloco/teste.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/local/FixPay/Config/etc/adminhtml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/local/FixPay/Config/etc/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/local/FixPay/Config/etc/system.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/etc/modules/FixPay_Config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/local/FixPay/PrimeiroBloco/Block/Hello.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/local/FixPay/PrimeiroBloco/Block/Hello.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/design/frontend/base/default/template/meuprimeirobloco/world.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/meuprimeirobloco/world.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +48,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/code/local/FixPay/Config/etc" />
+      <recent name="$PROJECT_DIR$/app/code/local/FixPay" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -49,10 +71,32 @@
       <option name="presentableId" value="Default" />
       <updated>1607202664102</updated>
       <workItem from="1607202667570" duration="9099000" />
+      <workItem from="1607361962966" duration="4878000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607363240088">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1607363240088" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1607362701085">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1607362701085" />
   </component>
 </project>

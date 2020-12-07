@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <FixPay_Config>
+            <version>1.0.0</version>
+        </FixPay_Config>
+    </modules>
+    <default>
+        <fixpay_configs>
+            <fixpay_credenciais>
+                <fixpay_email>guilacovolan@gmail.com</fixpay_email>
+                <fixpay_senha>12345678</fixpay_senha>
+            </fixpay_credenciais>
+        </fixpay_configs>
+    </default>
+</config>
