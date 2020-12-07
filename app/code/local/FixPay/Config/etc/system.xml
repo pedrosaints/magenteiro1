@@ -8,14 +8,14 @@
     </tabs>
     <sections>
         <fixpay_configs>
-            <label>Fix Pay Checkout</label>
+            <label>Teste Checkout</label>
             <tab>fix_pay</tab>
             <show_in_default>1</show_in_default>
             <show_in_website>1</show_in_website>
             <show_in_store>1</show_in_store>
             <groups>
                 <fixpay_credenciais>
-                    <label>Credenciais</label>
+                    <label>Fix Pay Checkout</label>
                     <show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
