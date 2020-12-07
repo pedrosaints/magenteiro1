@@ -5,11 +5,27 @@
             <version>1.0.0</version>
         </FixPay_Config>
     </modules>
+    <global>
+        <helpers>
+            <fixpay_config>
+                <class>FixPay_Config_Helper</class>
+            </fixpay_config>
+        </helpers>
+        <models>
+            <fixpay_config>
+                <class>FixPay_Config_Model</class>
+            </fixpay_config>
+        </models>
+    </global>
     <default>
         <fixpay_configs>
             <fixpay_credenciais>
                 <fixpay_email>guilacovolan@gmail.com</fixpay_email>
                 <fixpay_senha>12345678</fixpay_senha>
+                <fixpay_maxparcela>1</fixpay_maxparcela>
+                <fixpay_minparcela>0.00</fixpay_minparcela>
+                <fixpay_btnperscolor>#00e6e6</fixpay_btnperscolor>
+                <fixpay_backgroundpersurl>https://intranet.fixpay.com.br/images/link_pagamento_email/Camada48.png</fixpay_backgroundpersurl>
             </fixpay_credenciais>
         </fixpay_configs>
     </default>

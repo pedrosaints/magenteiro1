@@ -20,15 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1628d91e-a355-4836-9606-d31f281ec1ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/code/local/FixPay/Config/etc/adminhtml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/local/FixPay/Config/etc/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/code/local/FixPay/Config/etc/system.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/etc/modules/FixPay_Config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/local/FixPay/Config/Helper/Data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/code/local/FixPay/Config/Model/Months.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/local/FixPay/Config/etc/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/local/FixPay/Config/etc/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/local/FixPay/Config/etc/system.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/local/FixPay/Config/etc/system.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/code/local/FixPay/PrimeiroBloco/Block/Hello.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/local/FixPay/PrimeiroBloco/Block/Hello.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/design/frontend/base/default/template/meuprimeirobloco/world.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/meuprimeirobloco/world.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/session/sess_088e2f57b2fa2b3833a7a9b823314723" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/session/sess_4e76t3q0gopjdpkfgpjc14s832" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/session/sess_c6e4a56a0364cf637bc4dc6f3b7aa608" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/session/sess_fkvr2n5hqe5cpoo41lr0pf6j93" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/session/sess_gg30dguanc4k4gkn26hmvd2qu1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/session/sess_ots1gd4fkj33g2t18gv3gbne76" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/session/sess_qja7cu3fjiuo9r32dapoe667g7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/session/sess_rioci56es4sc07trm5ve925rn2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/session/sess_ua881r7t3jp9lp9cbhjjvjjr95" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607202664102</updated>
       <workItem from="1607202667570" duration="9099000" />
-      <workItem from="1607361962966" duration="4878000" />
+      <workItem from="1607361962966" duration="9263000" />
     </task>
     <servers />
   </component>
@@ -94,6 +101,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1607363240088" />
+    <state x="659" y="455" key="NewPhpFileDialog" timestamp="1607374458980">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="659" y="455" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1607374458980" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1607362701085">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
