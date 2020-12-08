@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <sections>
+        <payment>
+            <groups>
+                <fixpay_configs>
+                    <label>Fix Pay Checkout</label>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <sort_order>999</sort_order>
+<!--                    <expanded>1</expanded>-->
+                    <fields>
+                        <fixpay_habilitado>
+                            <label>Ativar/Desativar</label>
+                            <sort_order>1</sort_order>
+                            <frontend_type>select</frontend_type>
+                            <source_model>fixpay_checkout/simnao</source_model>
+                            <comment><![CDATA[Ativar o Fix Pay Checkout]]></comment>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </fixpay_habilitado>
+                        <fixpay_credentials type="group">
+                            <label>Credenciais</label>
+                            <sort_order>5</sort_order>
+                            <comment><![CDATA[Email e senha da conta Fix Pay. (<a href="https://app.pipefy.com/public/form/SyyPPEqr?emb=check">Não possui conta?</a>)]]></comment>
+                            <frontend_type>text</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <fields>
+                                <fixpay_email>
+                                    <label>Email</label>
+                                    <sort_order>10</sort_order>
+                                    <frontend_type>text</frontend_type>
+                                    <comment><![CDATA[Email da sua conta Fix Pay. (<a href="https://app.pipefy.com/public/form/SyyPPEqr?emb=check">Não possui conta?</a>)]]></comment>
+                                    <show_in_default>1</show_in_default>
+                                    <show_in_website>1</show_in_website>
+                                    <show_in_store>1</show_in_store>
+                                </fixpay_email>
+                                <fixpay_senha>
+                                    <label>Senha</label>
+                                    <sort_order>20</sort_order>
+                                    <frontend_type>password</frontend_type>
+                                    <comment><![CDATA[Senha da sua conta Fix Pay. (<a href="https://portal.fixpay.com.br/user/forgot-password">Esqueceu a Senha?</a>)]]></comment>
+                                    <show_in_default>1</show_in_default>
+                                    <show_in_website>1</show_in_website>
+                                    <show_in_store>1</show_in_store>
+                                </fixpay_senha>
+                            </fields>
+                        </fixpay_credentials>
+                        <fixpay_payment type="group">
+                            <label>Configurações do Checkout</label>
+                            <sort_order>25</sort_order>
+                            <comment><![CDATA[Configurações básicas para o pagamento.)]]></comment>
+                            <frontend_type>text</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <fields>
+                                <fixpay_brand>
+                                    <label>Nome da Marca/Loja</label>
+                                    <sort_order>30</sort_order>
+                                    <frontend_type>text</frontend_type>
+                                    <comment><![CDATA[Nome da Marca/Loja que vai aparecer no checkout Fix Pay.]]></comment>
+                                    <show_in_default>1</show_in_default>
+                                    <show_in_website>1</show_in_website>
+                                    <show_in_store>1</show_in_store>
+                                </fixpay_brand>
+                                <fixpay_maxparcela>
+                                    <label>Máximo de Parcelas s/ Juros</label>
+                                    <sort_order>40</sort_order>
+                                    <frontend_type>select</frontend_type>
+                                    <source_model>fixpay_checkout/months</source_model>
+                                    <comment><![CDATA[Número máximo de parcelas sem juros repassados ao cliente.]]></comment>
+                                    <show_in_default>1</show_in_default>
+                                    <show_in_website>1</show_in_website>
+                                    <show_in_store>1</show_in_store>
+                                </fixpay_maxparcela>
+                                <fixpay_minparcela>
+                                    <label>Valor Mínimo da Parcela (R$)</label>
+                                    <sort_order>50</sort_order>
+                                    <frontend_type>text</frontend_type>
+                                    <comment><![CDATA[Valor mínimo permitido para cada parcela.]]></comment>
+                                    <show_in_default>1</show_in_default>
+                                    <show_in_website>1</show_in_website>
+                                    <show_in_store>1</show_in_store>
+                                </fixpay_minparcela>
+                            </fields>
+                        </fixpay_payment>
+                        <fixpay_personal type="group">
+                            <label>Personalização</label>
+                            <sort_order>55</sort_order>
+                            <comment><![CDATA[Personalizações opcionais do checkout.)]]></comment>
+                            <frontend_type>text</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <fields>
+                                <fixpay_btnpers>
+                                    <label>Botão Personalizado</label>
+                                    <sort_order>60</sort_order>
+                                    <frontend_type>select</frontend_type>
+                                    <source_model>fixpay_checkout/simnao</source_model>
+                                    <comment><![CDATA[Ativa botao personalizado com as cores da Fix Pay.]]></comment>
+                                    <show_in_default>1</show_in_default>
+                                    <show_in_website>1</show_in_website>
+                                    <show_in_store>1</show_in_store>
+                                </fixpay_btnpers>
+                                <fixpay_btnperscolor>
+                                    <label>Cor do Botão</label>
+                                    <sort_order>70</sort_order>
+                                    <frontend_type>text</frontend_type>
+                                    <comment><![CDATA[Código da cor (padrão: #00e6e6) do botão personalizado que aparece no checkout. <a href="https://html-color-codes.info/Codigos-de-Cores-HTML/">Consulte o código da cor</a>.]]></comment>
+                                    <show_in_default>1</show_in_default>
+                                    <show_in_website>1</show_in_website>
+                                    <show_in_store>1</show_in_store>
+                                </fixpay_btnperscolor>
+                                <fixpay_backgroundpers>
+                                    <label>Background Personalizado</label>
+                                    <sort_order>80</sort_order>
+                                    <frontend_type>select</frontend_type>
+                                    <source_model>fixpay_checkout/simnao</source_model>
+                                    <comment><![CDATA[Ativa um plano de fundo personalizado na tela de checkout.]]></comment>
+                                    <show_in_default>1</show_in_default>
+                                    <show_in_website>1</show_in_website>
+                                    <show_in_store>1</show_in_store>
+                                </fixpay_backgroundpers>
+                                <fixpay_backgroundpersurl>
+                                    <label>URL da Imagem</label>
+                                    <sort_order>90</sort_order>
+                                    <frontend_type>text</frontend_type>
+                                    <comment><![CDATA[Url da imagem de plano de fundo personalizado da tela de checkout (padrão: <a href="https://intranet.fixpay.com.br/images/link_pagamento_email/Camada48.png">https://intranet.fixpay.com.br/images/link_pagamento_email/Camada48.png</a>).]]></comment>
+                                    <show_in_default>1</show_in_default>
+                                    <show_in_website>1</show_in_website>
+                                    <show_in_store>1</show_in_store>
+                                </fixpay_backgroundpersurl>
+                            </fields>
+                        </fixpay_personal>
+                    </fields>
+                </fixpay_configs>
+            </groups>
+        </payment>
+    </sections>
+</config>
+

@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<config>
-    <modules>
-        <FixPay_Config>
-            <active>true</active>
-            <codePool>local</codePool>
-        </FixPay_Config>
-    </modules>
-</config>

@@ -6,48 +6,48 @@ class FixPay_PrimeiroBloco_Block_Hello extends Mage_Core_Block_Template {
     }
 
     public function getEmail(){
-        if(Mage::getStoreConfigFlag("fixpay_configs/fixpay_credenciais/fixpay_habilitado")){
-            echo Mage::getStoreConfig("fixpay_configs/fixpay_credenciais/fixpay_email");
+        if(Mage::getStoreConfigFlag("payment/fixpay_configs/fixpay_habilitado")){
+            echo Mage::getStoreConfig("payment/fixpay_credentials/fixpay_email");
         }
     }
 
     public function getSenha(){
-        if(Mage::getStoreConfigFlag("fixpay_configs/fixpay_credenciais/fixpay_habilitado")){
-            echo Mage::getStoreConfig("fixpay_configs/fixpay_credenciais/fixpay_senha");
+        if(Mage::getStoreConfigFlag("payment/fixpay_configs/fixpay_habilitado")){
+            echo Mage::getStoreConfig("payment/fixpay_credentials/fixpay_senha");
         }
     }
 
     public function getBrand(){
-        if(Mage::getStoreConfigFlag("fixpay_configs/fixpay_credenciais/fixpay_habilitado")){
-            echo Mage::getStoreConfig("fixpay_configs/fixpay_credenciais/fixpay_brand");
+        if(Mage::getStoreConfigFlag("payment/fixpay_configs/fixpay_habilitado")){
+            echo Mage::getStoreConfig("payment/fixpay_payment/fixpay_brand");
         }
     }
 
     public function getMaxParcela(){
-        if(Mage::getStoreConfigFlag("fixpay_configs/fixpay_credenciais/fixpay_habilitado")){
-            echo Mage::getStoreConfig("fixpay_configs/fixpay_credenciais/fixpay_maxparcela");
+        if(Mage::getStoreConfigFlag("payment/fixpay_configs/fixpay_habilitado")){
+            echo Mage::getStoreConfig("payment/fixpay_payment/fixpay_maxparcela");
 //            echo 'Teste';
         }
     }
 
     public function getMinParcela(){
-        if(Mage::getStoreConfigFlag("fixpay_configs/fixpay_credenciais/fixpay_habilitado")){
-            echo Mage::getStoreConfig("fixpay_configs/fixpay_credenciais/fixpay_minparcela");
+        if(Mage::getStoreConfigFlag("payment/fixpay_configs/fixpay_habilitado")){
+            echo Mage::getStoreConfig("payment/fixpay_payment/fixpay_minparcela");
         }
     }
 
     public function getBtnColor(){
-        if(Mage::getStoreConfigFlag("fixpay_configs/fixpay_credenciais/fixpay_habilitado")){
-            if(Mage::getStoreConfigFlag("fixpay_configs/fixpay_credenciais/fixpay_btnpers")){
-                echo Mage::getStoreConfig("fixpay_configs/fixpay_credenciais/fixpay_btnperscolor");
+        if(Mage::getStoreConfigFlag("payment/fixpay_configs/fixpay_habilitado")){
+            if(Mage::getStoreConfigFlag("payment/fixpay_personal/fixpay_btnpers")){
+                echo Mage::getStoreConfig("payment/fixpay_personal/fixpay_btnperscolor");
             }
         }
     }
 
     public function getBackgroundUrl(){
-        if(Mage::getStoreConfigFlag("fixpay_configs/fixpay_credenciais/fixpay_habilitado")){
-            if(Mage::getStoreConfigFlag("fixpay_configs/fixpay_credenciais/fixpay_backgroundpers")){
-                echo Mage::getStoreConfig("fixpay_configs/fixpay_credenciais/fixpay_backgroundpersurl");
+        if(Mage::getStoreConfigFlag("payment/fixpay_configs/fixpay_habilitado")){
+            if(Mage::getStoreConfigFlag("payment/fixpay_personal/fixpay_backgroundpers")){
+                echo Mage::getStoreConfig("payment/fixpay_personal/fixpay_backgroundpersurl");
             }
         }
     }
