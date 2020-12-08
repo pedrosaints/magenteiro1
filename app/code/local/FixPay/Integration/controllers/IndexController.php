@@ -32,9 +32,10 @@ class FixPay_Integration_IndexController extends Mage_Core_Controller_Front_Acti
     }
 
     public function showLogsAction(){
-        $logs = Mage::getModel('fixpay_integration/queue')->getCollection();
+        $logs = Mage::getModel('fixpay_integration/queue')->getCollection()->addFieldToFilter('integrated_at', '1970-01-01 00:00:01')->getItems();;
         foreach ($logs as $log){
-            echo '<h2>' . $log->getEvent() . '</h2>';
+            $order = unserialize($log->getContent());
+            echo '<h2>' . $order['increment_id'] . '</h2>';
         }
     }
 }

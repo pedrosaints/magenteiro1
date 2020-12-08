@@ -36,6 +36,14 @@
                 </observers>
             </sales_order_place_after>
         </events>
+        <resources>
+            <integration_setup>
+                <setup>
+                    <module>FixPay_Integration</module>
+                    <class>Mage_Core_Model_Resource_Setup</class>
+                </setup>
+            </integration_setup>
+        </resources>
     </global>
     <frontend>
         <routers>
@@ -48,4 +56,16 @@
             </fixpay_integration>
         </routers>
     </frontend>
+    <crontab>
+        <jobs>
+            <fixpay_integration_order>
+                <schedule>
+                    <cron_expr>* * * * *</cron_expr>
+                </schedule>
+                <run>
+                    <model>fixpay_integration/cron::integrate</model>
+                </run>
+            </fixpay_integration_order>
+        </jobs>
+    </crontab>
 </config>
