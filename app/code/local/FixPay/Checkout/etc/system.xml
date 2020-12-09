@@ -53,7 +53,7 @@
                         <fixpay_payment type="group">
                             <label>Configurações do Checkout</label>
                             <sort_order>25</sort_order>
-                            <comment><![CDATA[Configurações básicas para o pagamento.)]]></comment>
+                            <comment><![CDATA[Configurações básicas para o pagamento.]]></comment>
                             <frontend_type>text</frontend_type>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -92,7 +92,7 @@
                         <fixpay_personal type="group">
                             <label>Personalização</label>
                             <sort_order>55</sort_order>
-                            <comment><![CDATA[Personalizações opcionais do checkout.)]]></comment>
+                            <comment><![CDATA[Personalizações opcionais do checkout.]]></comment>
                             <frontend_type>text</frontend_type>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>

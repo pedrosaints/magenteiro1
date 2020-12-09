@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.0.1">
+    <helloworld_index_index>
+        <reference name="content">
+            <block type="core/template" name="custom.helloworld" template="fixpay/helloworld.phtml"/>
+        </reference>
+    </helloworld_index_index>
+</layout>
